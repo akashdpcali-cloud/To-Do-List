@@ -1,0 +1,59 @@
+body{
+  font-family: Arial;
+  background-color: white;
+  color: navy;
+  
+}
+button{
+  cursor: pointer;
+}
+input{
+  border: solid 2px navy;
+  border-radius: 3px;
+}
+.title{
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.display-div{
+  display: grid;
+  grid-template-columns: 250px 200px 100px;
+  gap: 10px;
+  align-items: center;
+}
+.input-div{
+  display: grid;
+  grid-template-columns: 250px 200px 100px 100px;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+
+/*-----------------------------------------------------------*/
+.inputBar{
+  height: 30px;
+  padding-left: 10px;
+}
+.inputDate{
+  padding-left: 10px;
+}
+
+.singlebutton{
+  height: 30px;
+  color: white;
+  background-color: rgb(255, 72, 72);
+  border: none;
+  border-radius: 3px;
+}
+.removeallbutton{
+  color: white;
+  background-color: rgb(255, 72, 72);
+  border: none;
+  border-radius: 3px;
+}
+.createButton{
+   color: white;
+  background-color: rgb(30, 199, 255);
+  border: none;
+  border-radius: 3px;
+}
+
