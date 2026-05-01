@@ -14,18 +14,23 @@ input{
 .title{
   margin-bottom: 30px;
   margin-top: 30px;
+  justify-self: center;
+
 }
 .display-div{
   display: grid;
   grid-template-columns: 250px 200px 100px;
   gap: 10px;
   align-items: center;
+  justify-self: center;
+
 }
 .input-div{
   display: grid;
   grid-template-columns: 250px 200px 100px 100px;
   gap: 10px;
   padding-bottom: 20px;
+  justify-self: center;
 }
 
 /*-----------------------------------------------------------*/
