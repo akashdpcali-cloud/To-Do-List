@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="auth.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <form id="login-form">
+      <div class="title">Login</div>
+      <div class="error">Invalid email or password</div>
+      <input id="email" type="email" placeholder="Email">
+      <div class="password-wrapper">
+        <input id="password" type="password" placeholder="Password">
+        <span class="toggle-password" id="toggle-password">🕶️</span>
+      </div>
+      <button type="submit">Login</button>
+      <a href="./signup.html">Don't have an account? Sign up</a>
+    </form>
+    <script src="auth.js"></script>
+  </body>
+</html>
